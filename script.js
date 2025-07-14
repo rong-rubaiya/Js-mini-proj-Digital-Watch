@@ -18,5 +18,5 @@ const showTime=()=>{
 
   time.innerHTML=`${ hr}:${mins}:${sec}`;
 
-  timeFormate.innerHTML=hr>12?"AM":"PM";
+  timeFormate.innerHTML=hr>12?"PM":"AM";
 }
